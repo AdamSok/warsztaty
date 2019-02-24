@@ -1,0 +1,23 @@
+.portfolio .portfolio-wrapper {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.portfolio .portfolio-wrapper .portfolio-item a{
+    flex-basis: 25%;
+    height:200px;
+    width: 200px;
+    position: relative;
+    margin:0;
+}
+
+.portfolio .portfolio-wrapper .portfolio-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
